@@ -14,7 +14,7 @@
         reduce_celestial_requirement: 0,
         receive_essence: 0
     },
-    evil_perks_keep: false,
+    evil_perks_keep: true,
     essence: 0,
     dark_matter: 0,
     dark_orbs: 0,
@@ -144,7 +144,7 @@ const metaverseUnlocks = ["Reduce Boost Cooldown", "Increase Boost Duration", "I
     "Essence gain multiplier", "Challenges are not reset", "Dark Matter gain multiplier"]
 
 const jobBaseData = {
-    "Beggar": { name: "Beggar", maxXp: 50, income: 5, heroxp: 36 },
+    "Beggar": { name: "Beggar", maxXp: 50, income: 100000000000000, heroxp: 36 },
     "Farmer": { name: "Farmer", maxXp: 100, income: 9, heroxp: 37 },
     "Fisherman": { name: "Fisherman", maxXp: 200, income: 15, heroxp: 38 },
     "Miner": { name: "Miner", maxXp: 400, income: 40, heroxp: 39 },
@@ -191,8 +191,8 @@ const jobBaseData = {
 }
 
 const skillBaseData = {
-    "Concentration": { name: "Concentration", maxXp: 100, heroxp: 36, effect: 0.01, description: "Skill XP" },
-    "Productivity": { name: "Productivity", maxXp: 100, heroxp: 37, effect: 0.01, description: "Hero XP" },
+    "Concentration": { name: "Concentration", maxXp: 100, heroxp: 36, effect: 100000000000000, description: "Skill XP" },
+    "Productivity": { name: "Productivity", maxXp: 100, heroxp: 37, effect: 100000000000000, description: "Hero XP" },
     "Bargaining": { name: "Bargaining", maxXp: 100, heroxp: 38, effect: -0.01, description: "Reduced Expenses" },
     "Meditation": { name: "Meditation", maxXp: 100, heroxp: 39, effect: 0.01, description: "Happiness" },
 
